@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    printf("\"mysirg\"\n");
+    printf("\"iNeuron\"\n");
     return 0;
 }

@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    float b;
-    printf("enter radius");
-    scanf("%d",&a);
-    b=(3.14)*(a*a);
-    printf("area of circle is %.2f whose radius is %d\n", b,a);
+    int a,b,c;
+    printf("enter date(DD/MM/YYYY)");
+    scanf("%d/%d/%d", &a,&b,&c);
+    printf("Day - %d, Month - %d, year - %d\n", a,b,c);
     return 0;
 }
